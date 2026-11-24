@@ -1,5 +1,11 @@
 class LearningTopic {
-  const LearningTopic({required this.id, required this.subject, required this.title, required this.week, required this.completed});
+  const LearningTopic({
+    required this.id,
+    required this.subject,
+    required this.title,
+    required this.week,
+    required this.completed,
+  });
   final int id;
   final String subject;
   final String title;
